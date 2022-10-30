@@ -1,0 +1,497 @@
+*{
+    margin: 0%;
+    padding: 0%;
+font-family: sans-serif;}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+header video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+.content{position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+.content {
+    color: white;
+
+}
+
+.big{
+    font-size: 60px;
+}
+
+.content p{
+    color: white;
+}
+
+
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    font-size: 30px;
+   
+   
+    
+   
+    
+}
+
+li a{
+   border-radius: 10px 10px ;
+    background-color: pink;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+ul li{
+    list-style: none;
+}
+
+
+
+
+header .content p{
+   
+
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white
+}
+
+.button3{
+    margin-left: 15px;
+    width: 180px; 
+    height: 50px;   
+    border-radius: 20px  ;
+    border: 3px solid black;
+    background-color: transparent;
+   
+    
+    cursor: pointer;
+    }
+
+    .button3:hover{
+        background-color: skyblue;
+    }
+
+
+
+
+
+
+
+.know{
+    background-color: pink;
+    margin: 70px;
+}
+
+.know{
+    font-size: 50px;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.one{
+    
+    flex-basis: 70%;
+    margin: 40px;
+    
+}
+
+.one h1{
+    font-size: 40px;
+}
+
+.one p{
+    color: rgb(58, 57, 57);
+    text-align: center;
+}
+
+
+
+
+
+.two{
+     
+    flex-basis: 30%;
+    margin: 40px;
+}
+.button1{
+margin-left: 15px;
+width: 150px; 
+height: 40px;   
+border-radius: 10px ;
+
+background-color:skyblue;
+cursor: pointer;
+}
+
+.what{
+    background-color: pink;
+    margin: 70px;
+}
+
+.what h1{
+font-size: 50px;
+text-align: center;
+}
+
+.what1{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.graphics{
+    border: 2px solid gray;
+    flex-basis: 50%;
+    background-image: url(images/graphic-design\ 2.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 200px;
+   font-size: 20px;
+}
+
+
+
+
+
+.web{
+    border: 2px solid gray;
+    flex-basis: 50%;
+    background-image: url(images/web\ logo.png);
+    background-size: cover;
+   background-repeat: no-repeat;
+   padding: 200px;
+   font-size: 20px;
+}
+
+
+
+.what2{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.app{
+    border: 2px solid gray;
+    flex-basis: 50%;
+    background-image: url(images/app\ logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+    font-size: 20px;
+ }
+
+
+
+.buisness{
+    border: 2px solid gray;
+    flex-basis: 50%;
+    background-image: url(images/buisness2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+    font-size: 20px;
+
+}
+
+.resume{
+    font-size: 50px;
+    text-align: center;
+    background-color: pink;
+    margin: 70px;
+}
+
+.education{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.becivil{
+    flex-basis: 25%;
+    border: 1px solid gray;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 30px;
+    box-shadow: 10px 10px gray;
+}
+
+.diploma{
+    flex-basis: 25%;
+    border: 1px solid gray;
+    margin: 20px;  
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 30px;
+    box-shadow: 10px 10px gray;
+}
+
+.hsc{
+    flex-basis: 25%;
+    border: 1px solid gray;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 30px;
+    box-shadow: 10px 10px gray;
+}
+
+.ssc{
+    flex-basis: 25%;
+    border: 1px solid gray;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 30px;
+    box-shadow: 10px 10px gray;
+
+}
+
+.education :hover{
+    background-color: skyblue;
+}
+
+.education h1{
+    color: blue
+}
+
+.education h2{
+    color: red;
+    font-weight: 1px;
+}
+
+.my{
+    margin-left: 50px;
+    font-size: 20px;
+    color: maroon;
+  
+    
+}
+
+.skill{
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.skill h1{
+    font-size: 30px;
+}
+
+.skill p{
+    font-size: 20px;
+}
+
+hr{
+    margin: 30px;
+}
+
+.my2{
+    font-size: 50px;
+    text-align: center;
+    background-color: pink;
+    margin: 40px;
+}
+  
+
+.work{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.paytm img{
+    height: 200px;
+    margin: 20px;
+    flex-basis:25%;
+}
+
+.project img{
+    height: 200px;
+    margin: 20px;
+    flex-basis:25%;
+}
+
+.animation img{
+    height: 200px;
+    margin: 20px;
+    flex-basis:25%;
+}
+
+.media img{
+    height: 200px;
+    margin: 20px;
+    flex-basis:25%;
+}
+
+.project{
+    flex-basis: 25%;
+    border: 1px solid gray;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 30px;
+    box-shadow: 10px 10px gray;
+}
+
+.paytm{
+    flex-basis: 25%;
+    border: 1px solid gray;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 30px;
+    box-shadow: 10px 10px gray;
+}
+
+.animation{
+    flex-basis: 25%;
+    border: 1px solid gray;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 30px;
+    box-shadow: 10px 10px gray;
+}
+
+.media{
+    flex-basis: 25%;
+    border: 1px solid gray;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 30px;
+    box-shadow: 10px 10px gray;
+}
+
+.work a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.work :hover{
+    background-color: aqua;
+}
+
+.get{
+    font-size: 40px;
+    text-align: center;
+    background-color: pink;
+    margin: 40px;
+}
+
+.send{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    background-image: url(images/DSC_0589\ \(2\).jpg);
+    background-size: 1100px;
+    background-repeat: no-repeat;
+}
+
+.address{
+    flex-basis: 40%;
+    text-align: center;
+    justify-items: center;
+    margin: 20px;
+    padding: 40px;
+   border: 2px solid  gray;
+   border-radius: 10px 30px;
+   box-shadow: 10px 10px gray;
+}
+
+.address h2{
+    text-align: center;
+    
+    color: blue;
+    
+}
+
+
+
+
+
+
+
+.form{
+    flex-basis: 60%;
+    margin: 30px;
+   
+}
+
+.form h1{
+    margin: 20px;
+}
+
+
+
+
+#a[type]{
+    height: 40px;
+    width: 250px;
+}
+
+
+#b[type]{
+    height: 40px;
+    width: 250px;
+}
+
+#c[type]{
+    height: 150px;
+    width: 500px;
+}
+
+.button2{
+    margin-left: 15px;
+    width: 300px; 
+    height: 50px;   
+    border-radius: 10px ;
+    color: white;
+    background-color:blue;
+    cursor: pointer;
+    }
