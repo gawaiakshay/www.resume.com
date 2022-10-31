@@ -557,7 +557,7 @@ hr{
     cursor: pointer;
     }
 
- @media (max-width:800px){
+ @media (max-width:500px){
     .nav ul{
         flex-direction: column;
         align-items: center;
@@ -566,46 +566,55 @@ hr{
     }
  }   
 
- @media (max-width:1000px){
+ @media (max-width:500px){
     .main{
         flex-direction: column;
     }
  }
 
 
- @media (max-width:1000px){
+ @media (max-width:500px){
     .education{
         flex-direction: column;
     }
  }
 
- @media (max-width:1000px){
+ @media (max-width:500px){
     .skill{
         flex-direction: column;
     }
  }
 
- @media (max-width:100px){
+ @media (max-width:500px){
     .work{
         flex-direction: column;
     }
  }
 
- @media (max-width:1000px){
+ @media (max-width:500px){
     .what1{
         flex-direction: column;
     }
  }
 
- @media (max-width:1000px){
+ @media (max-width:500px){
     .what2{
         flex-direction: column;
     }
  }
 
- @media (max-width:1000px){
+ @media (max-width:500px){
     header video{
         flex-direction: row;
+        height: 100%;
+        width: 100%;
+    }
+ }
+
+
+ @media (max-width:500px){
+    .know{
+        
         height: 100%;
         width: 100%;
     }
