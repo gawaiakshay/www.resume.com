@@ -70,10 +70,10 @@ header video{
 
 li a{
    border-radius: 10px 10px ;
-    background-color: pink;
+    
     text-decoration: none;
     list-style: none;
-    color: black;
+    color: blue;
 }
 
 ul li{
@@ -114,18 +114,45 @@ header .content p{
 
 
 .know{
-    background-color: pink;
+    text-shadow: 5px 5px pink;
     margin: 70px;
-}
-
-.know{
     font-size: 50px;
     text-align: center;
+
+    
+  
 }
+div.background {
+    background-color: pink;
+    background-image: url(images/ssss.jpg);
+    border: 2px solid black;
+    background-size: cover;
+    border-radius: 10px 70px;
+  }
+  
+  div.transbox {
+    margin: 50px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 70px 10px;
+    opacity: 0.8;
+  }
+  
+  div.transbox p {
+    margin: 2%;
+    font-weight: bold;
+    color: #000000;}
+
+
+
+    
 
 .main{
     display: flex;
     flex-direction: row;
+    background-color: rgb(226, 207, 207);
+    margin: 50px;
+    border-radius: 50px 20px;
     
 }
 
@@ -165,8 +192,10 @@ cursor: pointer;
 }
 
 .what{
-    background-color: pink;
+    text-shadow: 5px 5px pink;
     margin: 70px;
+    font-size: 50px;
+    text-align: center;
 }
 
 .what h1{
@@ -182,12 +211,15 @@ text-align: center;
 
 .graphics{
     border: 2px solid gray;
+    border-radius: 20px 60px;
     flex-basis: 50%;
-    background-image: url(images/graphic-design\ 2.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
-   padding: 200px;
+    background-image: url(images/ppp.webp);
+    
+    text-align: center;
+    color: white;
+    padding: 20px;
    font-size: 20px;
+   margin: 30px;
 }
 
 
@@ -196,11 +228,16 @@ text-align: center;
 
 .web{
     border: 2px solid gray;
+    border-radius: 20px 60px;
     flex-basis: 50%;
-    background-image: url(images/web\ logo.png);
-    background-size: cover;
-   background-repeat: no-repeat;
-   padding: 200px;
+    background-image: url(images/ppp.webp);
+    
+    text-align: center;
+    color: white;
+    padding: 20px;
+   font-size: 20px;
+   margin: 30px;
+   
    font-size: 20px;
 }
 
@@ -214,24 +251,31 @@ text-align: center;
 
 .app{
     border: 2px solid gray;
+    border-radius: 20px 60px;
     flex-basis: 50%;
-    background-image: url(images/app\ logo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 200px;
-    font-size: 20px;
+    background-image: url(images/ppp.webp);
+    
+    text-align: center;
+    color: white;
+    padding: 20px;
+   font-size: 20px;
+   margin: 30px;
  }
 
 
 
 .buisness{
     border: 2px solid gray;
+    border-radius: 20px 60px;
     flex-basis: 50%;
-    background-image: url(images/buisness2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 200px;
-    font-size: 20px;
+   
+    background-image: url(images/ppp.webp);
+    
+    text-align: center;
+    color: white;
+    padding: 20px;
+   font-size: 20px;
+   margin: 30px;
 
 }
 
@@ -315,6 +359,7 @@ text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    color: blue;
 }
 
 .skill h1{
@@ -324,6 +369,20 @@ text-align: center;
 .skill p{
     font-size: 20px;
 }
+
+.button4{
+   margin-left: 40%;
+width: 200px; 
+height: 50px;   
+border-radius: 10px ;
+
+background-color:skyblue;
+cursor: pointer;
+
+}
+
+
+
 
 hr{
     margin: 30px;
@@ -341,6 +400,7 @@ hr{
     display: flex;
     flex-direction: row;
     margin: 50px;
+    
 }
 
 .paytm img{
@@ -375,6 +435,7 @@ hr{
     padding: 10px;
     border-radius: 10px 30px;
     box-shadow: 10px 10px gray;
+    
 }
 
 .paytm{
@@ -495,3 +556,49 @@ hr{
     background-color:blue;
     cursor: pointer;
     }
+
+ @media (max-width:600px){
+    .nav ul{
+        flex-direction: column;
+        align-items: center;
+        
+       
+    }
+ }   
+
+ @media (max-width:600px){
+    .main{
+        flex-direction: column;
+    }
+ }
+
+
+ @media (max-width:600px){
+    .education{
+        flex-direction: column;
+    }
+ }
+
+ @media (max-width:600px){
+    .skill{
+        flex-direction: column;
+    }
+ }
+
+ @media (max-width:600px){
+    .work{
+        flex-direction: column;
+    }
+ }
+
+ @media (max-width:600px){
+    .what1{
+        flex-direction: column;
+    }
+ }
+
+ @media (max-width:600px){
+    .what2{
+        flex-direction: column;
+    }
+ }
