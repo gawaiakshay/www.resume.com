@@ -566,39 +566,47 @@ hr{
     }
  }   
 
- @media (max-width:800px){
+ @media (max-width:1000px){
     .main{
         flex-direction: column;
     }
  }
 
 
- @media (max-width:800px){
+ @media (max-width:1000px){
     .education{
         flex-direction: column;
     }
  }
 
- @media (max-width:800px){
+ @media (max-width:1000px){
     .skill{
         flex-direction: column;
     }
  }
 
- @media (max-width:800px){
+ @media (max-width:100px){
     .work{
         flex-direction: column;
     }
  }
 
- @media (max-width:800px){
+ @media (max-width:1000px){
     .what1{
         flex-direction: column;
     }
  }
 
- @media (max-width:800px){
+ @media (max-width:1000px){
     .what2{
         flex-direction: column;
+    }
+ }
+
+ @media (max-width:1000px){
+    header video{
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
     }
  }
