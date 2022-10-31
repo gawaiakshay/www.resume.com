@@ -557,9 +557,79 @@ hr{
     cursor: pointer;
     }
 
-    @media (max-width:800px){
-        .main{
-            height: 100%;
-            width: 100%;
+   
+
+    @media only screen and (max-width: 600px) {
+        .container {
+          display: flex;
+          flex-direction: column;
+
         }
-    }
+      }
+
+      @media only screen and (max-width: 600px) {
+        .nav ul {
+            display: flex;
+            flex-direction: column;
+            justify-content:space-evenly;
+            font-size: 30px;
+            align-items: center;
+           
+        }
+      }
+
+
+      
+      @media only screen and (max-width: 600px) {
+        header video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            width: 1200px;
+            height: 100%;
+            pointer-events: none;
+        }
+      }
+
+      @media only screen and (max-width:600px){
+        .know{
+            text-shadow: 2px 2px pink;
+        }
+      }
+      
+      
+      @media only screen and (max-width: 600px) {
+        .background {
+           
+            background-image: url(images/ssss.jpg);
+            border: 2px solid black;
+            
+            border-radius: 10px 10px;
+        }
+      }
+
+
+      @media only screen and (max-width: 600px) {
+        .transbox {
+            margin: 10px;
+            background-color: #ffffff;
+            border: 1px solid black;
+            border-radius: 40px 30px;
+            opacity: 0.8;
+            font-size: 25px;
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        .main{
+            display: flex;
+            flex-direction: column;
+        }
+      }
+      
+
+
+
+
+
