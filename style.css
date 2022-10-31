@@ -557,3 +557,9 @@ hr{
     cursor: pointer;
     }
 
+    @media (max-width:800px){
+        .main{
+            height: 100%;
+            width: 100%;
+        }
+    }
