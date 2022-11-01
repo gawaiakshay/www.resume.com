@@ -69,18 +69,28 @@ header video{
 }
 
 li a{
-   border-radius: 10px 10px ;
+   
     
     text-decoration: none;
     list-style: none;
-    color: blue;
+    
+    box-shadow: inset 0 0 0 0 0 0 pink;
+  color: black;
+  margin: 0 -.25rem;
+  padding: 0 .30rem;
+  transition: color .2s ease-in-out, box-shadow .3s ease-in-out;
+
 }
 
 ul li{
     list-style: none;
 }
 
-
+ul li :hover{
+    
+    box-shadow: inset 150px 0 0 0 #54b3d6;
+  color: white;
+}
 
 
 header .content p{
@@ -575,7 +585,8 @@ hr{
             font-size: 30px;
             align-items: center;
             position: relative;
-            left: 280px;
+            left: 350px;
+            
            
         }
       }
@@ -651,7 +662,7 @@ hr{
       @media only screen and (max-width:600px){
         .graphics{
            
-            width: 100%;
+            width: 1000px;
             height: 200px;
       }      
     }
@@ -659,9 +670,8 @@ hr{
      
     @media only screen and (max-width:600px){
         .web{
-           width: 100%;
-           height: 200px;
-           
+            width: 1000px;
+            height: 200px;
       }      
     }
 
@@ -676,16 +686,16 @@ hr{
 
     @media only screen and (max-width:600px){
         .app{
-           width: 100%;
-           height: 200px;
+            width: 1000px;
+            height: 200px;
            
       }      
     }
 
     @media only screen and (max-width:600px){
         .buisness{
-           width: 100%;
-           height: 200px;
+            width: 1000px;
+            height: 200px;
            
       }      
     }
@@ -717,7 +727,7 @@ hr{
         .button4{
             align-items: center;
             position: relative;
-            left: 225px;
+            left: 270px;
         }
       }  
 
