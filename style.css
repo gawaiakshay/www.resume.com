@@ -585,7 +585,8 @@ hr{
             font-size: 30px;
             align-items: center;
             position: relative;
-            left: 350px;
+            left: 450px;
+            
             
            
         }
@@ -594,9 +595,6 @@ hr{
       @media only screen and (max-width: 600px) {
         li a {
             
-            
-   
-    
                 text-decoration: none;
                 list-style: none;
                 
@@ -605,9 +603,18 @@ hr{
               margin: 0 -.25rem;
               padding: 0 .30rem;
               transition: color .2s ease-in-out, box-shadow .3s ease-in-out;
-            
-            
+              background-color: pink;
+              border-radius: 10px;
+              
            
+        }
+      }
+     
+      @media only screen and (max-width: 600px) {
+        li  {
+            
+              margin: 5px;
+            
         }
       }
 
@@ -623,14 +630,6 @@ hr{
         }
       
   
-
-
-
-
-
-
-
-      
       @media only screen and (max-width: 600px) {
         header video {
             position: absolute;
