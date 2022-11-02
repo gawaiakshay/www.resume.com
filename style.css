@@ -794,7 +794,7 @@ hr{
       @media only screen and (max-width:600px){
         .content{
             position: relative;
-            left: 350px;
+            left: 400px;
     z-index: 1;
     max-width: 1000px;
     margin: 0 auto;
